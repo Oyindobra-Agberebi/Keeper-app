@@ -1,6 +1,4 @@
 function Card(props) {
-    // let noteTitle = "This is the note title";
-    // let noteText = "This is the note content";
 
     return (
         <div className="Card">

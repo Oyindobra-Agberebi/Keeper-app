@@ -1,9 +1,8 @@
-function Header () {
+function Header (props) {
 
-    let title = "Keeper";
     return (
         <header>
-            <h1 className="keeper-title">{title}</h1>
+            <h1 className="keeper-title">{props.title}</h1>
         </header>
     );
 }
